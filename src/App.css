@@ -1,0 +1,81 @@
+/* App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.navbar input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  border-radius: 20px; /* Adjust the value as needed */
+}
+
+.navbar button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 20px; /* Adjust the value as needed */
+}
+
+
+
+.navbar button:hover {
+  background-color: #0056b3;
+}
+
+.job-cards {
+  margin-bottom: 20px;
+}
+
+.job-card {
+  border: 1px solid #ccc;
+  background-color: rgb(184, 230, 230);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.job-card h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.pagination {
+  margin-bottom: 20px;
+}
+
+.pagination button {
+  margin-right: 5px;
+  background-color: #de1313;
+  border: none;
+  border-radius: 30px;
+  text-align: center;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+}
